@@ -35,7 +35,6 @@ class _DicePageState extends State<DicePage> {
               onPressed: () {
                 setState(() {
                   leftDiceNumber = Random().nextInt(6) + 1;
-                  print('new = $leftDiceNumber');
                 });
               },
               child: Image.asset('images/dice$leftDiceNumber.png'),
